@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Business Website">
+        <meta name="author" content="Steve Shead">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Business Theme</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Menu styles -->
+        <link rel="stylesheet" type="text/css" href="assets/css/menuzord.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/menuzord-dark.css">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+        <link href="assets/css/slider.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <script src="assets/js/modernizr.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section id="menu" class="menu">
+            <div class="container">
+                <div id="menuzord" class="menuzord orange">
+                    <a href="#" class="menuzord-brand"><i class="fa fa-rocket"></i>INSPIRATION</a>
+                    <ul class="menuzord-menu">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Photography</a>
+                            <div class="megamenu">
+                                <div class="megamenu-row menu-cols">
+                                    <div class="col-md-8 p-tb-10 pull-left">
+                                        <div class="col-md-3">
+                                            <a href="#">
+                                                <img class="img-responsive" src="assets/img/1.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h4>Lorem Ipsum</h4>
+                                            <p>Vestibulum ullamcorper mauris at ligula. Vestibulum suscipit nulla quis orci. Phasellus viverra nulla ut metus varius laoreet. Aliquam eu nunc. In hac habitasse platea dictumst Aenean ut eros et nisl sagittis vestibulum. Phasellus a est lobortis massa imperdiet quam.</p>
+                                            <button class="btn btn-sm btn-orange">
+                                                Read More
+</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pull-right">
+                                        <h4>Lorem Ipsum</h4>
+                                        <p>Phasellus a est. Cras risus ipsum, faucibus ut, ullamcorper id, varius ac, leo. Duis lobortis massa imperdiet quam. Aenean vulputate eleifend tellus. Pellentesque ut neque. In ac felis quis tortor malesuada pretium.</p>
+                                        <br />
+                                        <h4>Dolor Sit Amet</h4>
+                                        <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Maecenas egestas arcu quis ligula mattis placerat. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem.  Phasellus a est lobortis massa imperdiet quam suscipit nulla quis orci.</p>
+                                    </div>
+                                    <div class="col-md-8 p-tb-10 pull-left">
+                                        <div class="col-md-3">
+                                            <a href="#">
+                                                <img class="img-responsive" src="assets/img/2.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h4>Lorem Ipsum</h4>
+                                            <p>Vestibulum ullamcorper mauris at ligula. Vestibulum suscipit nulla quis orci. Phasellus viverra nulla ut metus varius laoreet. Aliquam eu nunc. In hac habitasse platea dictumst Aenean ut eros et nisl sagittis vestibulum. Phasellus a est lobortis massa imperdiet quam.</p>
+                                            <button class="btn btn-sm btn-orange">
+                                                Read More
+</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="#">Wordpress</a>
+                                </li>
+                                <li>
+                                    <a href="#">HTML5/CSS3</a>
+                                </li>
+                                <li>
+                                    <a href="#">Bootstrap</a>
+                                </li>
+                                <li>
+                                    <a href="#">Foundation</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="menuzord-menu pull-right">
+                        <li class="modal-btn">
+                            <h1 class="text-center"><a href="#myModal" role="button" class="btn btn-transparent" data-toggle="modal" data-target="#login-modal">Login</a></h1>
+                            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                                <div id="login-overlay" class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title" id="myModalLabel">Login<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span class="fa fa-close" aria-hidden="true"></span>
+                                                </button></h2>
+                                        </div>
+                                        <hr class="colorDivider-thin" />
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <div class="well">
+                                                        <form id="loginForm" method="POST" action="/login/" novalidate="novalidate">
+                                                            <div class="form-group">
+                                                                <label for="username" class="control-label">Username</label>
+                                                                <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="example@gmail.com">
+                                                                <span class="help-block"></span>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="password" class="control-label">Password</label>
+                                                                <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password">
+                                                                <span class="help-block"></span>
+                                                            </div>
+                                                            <div id="loginErrorMsg" class="alert alert-error hide">Wrong username og password</div>
+                                                            <div class="checkbox">
+                                                                <label>
+                                                                    <input type="checkbox" name="remember" id="remember"> Remember login
+                                                                </label>
+                                                                <p class="help-block">(if this is a private computer)</p>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-orange btn-block">
+                                                                <i class="fa fa-sign-in"></i>LOGIN
+                                                            </button>
+                                                            <a href="/forgot/" class="btn btn-default btn-block">login Help</a>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <p class="lead">Login Now and <span class="text-success">SAVE</span></p>
+                                                    <ul class="list-unstyled" style="line-height: 2">
+                                                        <li>
+                                                            <span class="fa fa-check text-success"></span> See all your orders
+                                                        </li>
+                                                        <li>
+                                                            <span class="fa fa-check text-success"></span> Enable fast re-order
+                                                        </li>
+                                                        <li>
+                                                            <span class="fa fa-check text-success"></span> Save your favorites
+                                                        </li>
+                                                        <li>
+                                                            <span class="fa fa-check text-success"></span> Fast checkout
+                                                        </li>
+                                                        <li>
+                                                            <span class="fa fa-check text-success"></span> Get a gift
+                                                            <small>(paying customers only)</small>
+                                                        </li>
+                                                    </ul>
+                                                    <br />
+                                                    <p><a href="#" class="btn btn-info btn-block"><i class="fa fa-usd"></i>Refer a Friend - Get 10% Off</a></p>
+                                                    <p><a href="#" class="btn btn-success btn-block"><i class="fa fa-question-circle-o"></i>More Information</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="modal-btn">
+                            <h1 class="text-center"><a href="#signup-modal" role="button" class="btn btn-orange" data-toggle="modal" data-target="#signup-modal">Sign Up Now</a></h1>
+                            <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                                <div id="login-overlay" class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title" id="myModalLabel">Sign Up<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span class="fa fa-close" aria-hidden="true"></span>
+                                                </button></h2>
+                                        </div>
+                                        <hr class="colorDivider-thin" />
+                                        <div class="modal-body">
+                                            <form role="form">
+                                                <p>Use this form to register on this site.</p>
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6">
+                                                        <div class="form-group">
+                                                            <input type="text" name="first_name" id="first_name" class="form-control input" placeholder="First Name" tabindex="1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6">
+                                                        <div class="form-group">
+                                                            <input type="text" name="last_name" id="last_name" class="form-control input" placeholder="Last Name" tabindex="2">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" name="display_name" id="display_name" class="form-control input" placeholder="Display Name" tabindex="3">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" name="email" id="email" class="form-control input" placeholder="Email Address" tabindex="4">
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6">
+                                                        <div class="form-group">
+                                                            <input type="password" name="password" id="password" class="form-control input" placeholder="Password" tabindex="5">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6">
+                                                        <div class="form-group">
+                                                            <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input" placeholder="Confirm Password" tabindex="6">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-md-6">
+                                                        <input type="button" value="Register" class="btn btn-orange btn-block" tabindex="7">
+                                                    </div>
+                                                    <div class="col-xs-6 col-md-6">
+                                                        <input type="button" value="More Info" class="btn btn-success btn-block" tabindex="7">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <hr class="colorDivider" />
+        <section id="pointy-slider" class="pointy-slider">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12" style="padding:0">
+                        <div class="cd-slider-wrapper">
+                            <ul class="cd-slider">
+                                <li class="is-visible">
+                                    <div class="cd-half-block image"></div>
+                                    <div class="cd-half-block content">
+                                        <div>
+                                            <h1>FREEDOM 2 DESIGN</h1>
+                                            <img src="assets/img/iphone-3.png" width="150" class="pull-left" />
+                                            <p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugit ullam voluptatum tenetur ab, non beatae, impedit dolorem itaque voluptates facilis necessitatibus suscipit dolor rerum dolores dignissimos alias facere sunt aliquid.</p>
+                                            <a href="https://codyhouse.co/?p=7404" class="btn">Download This Slider</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- .cd-half-block.content -->
+                                <li>
+                                    <div class="cd-half-block image"></div>
+                                    <div class="cd-half-block content light-bg">
+                                        <div>
+                                            <h1>INSPIRED BY GENIUS</h1>
+                                            <img src="assets/img/iphone-4.png" width="150" class="pull-left" />
+                                            <p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugit ullam voluptatum tenetur ab, non beatae, impedit dolorem itaque voluptates facilis necessitatibus suscipit dolor rerum dolores dignissimos alias facere sunt aliquid.</p>
+                                            <a href="https://codyhouse.co/?p=7404" class="btn">Download This Slider</a>
+                                        </div>
+                                    </div>
+                                    <!-- .cd-half-block.content -->
+                                </li>
+                                <li>
+                                    <div class="cd-half-block image"></div>
+                                    <div class="cd-half-block content">
+                                        <div>
+                                            <h1>DRIVEN BY PASSION</h1>
+                                            <img src="assets/img/iphone-2.png" width="150" class="pull-left" />
+                                            <p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugit ullam voluptatum tenetur ab, non beatae, impedit dolorem itaque voluptates facilis necessitatibus suscipit dolor rerum dolores dignissimos alias facere sunt aliquid.</p>
+                                            <a href="https://codyhouse.co/?p=7404" class="btn">Download This Slider</a>
+                                        </div>
+                                    </div>
+                                    <!-- .cd-half-block.content -->
+                                </li>
+                                <li>
+                                    <div class="cd-half-block image"></div>
+                                    <div class="cd-half-block content">
+                                        <div>
+                                            <h1>INSPIRATIONAL DESIGN</h1>
+                                            <img src="assets/img/iphone-1.png" width="150" class="pull-left" />
+                                            <p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugit ullam voluptatum tenetur ab, non beatae, impedit dolorem itaque voluptates facilis necessitatibus suscipit dolor rerum dolores dignissimos alias facere sunt aliquid.</p>
+                                            <a href="https://codyhouse.co/?p=7404" class="btn">Download This Slider</a>
+                                        </div>
+                                    </div>
+                                    <!-- .cd-half-block.content -->
+                                </li>
+                            </ul>
+                            <!-- .cd-slider -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="colorDivider" />
+        <section class="inspired">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p><i class="fa fa-quote-left fa-lg"></i>In the expression of our world we are inspired by genius and driven by passion</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center services-heading">
+                        <h1>Creating Business Accumen</h1>
+                        <p>Lorem ipsum dolor sit amet consectecter</p>
+                    </div>
+                    <div class="col-md-3 col-xs-6 col-sm-6">
+                        <div class="text-center services-icon col-md-12">
+                            <i class="fa fa-5x fa-linux"></i>
+                            <h3 class="text-center" style="color:#e74c3c;">Linux</h3>
+                        </div>
+                        <div class="left p-tb-10 col-md-12">
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <button type="button" class="btn btn-red btn-block">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="text-center services-icon col-md-12">
+                            <i class="fa fa-5x fa-android"></i>
+                            <h3 class="text-center" style="color:#f1c40f;">Android</h3>
+                        </div>
+                        <div class="left-center p-tb-10 col-md-12">
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <button type="button" class="btn btn-yellow btn-block">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="text-center services-icon col-md-12">
+                            <i class="fa fa-5x fa-windows"></i>
+                            <h3 class="text-center" style="color:#1abc9c;">Windows</h3>
+                        </div>
+                        <div class="right-center p-tb-10 col-md-12">
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <button type="button" class="btn btn-green btn-block">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="text-center services-icon col-md-12">
+                            <i class="fa fa-5x fa-apple"></i>
+                            <h3 class="text-center" style="color:#3498db;">os x</h3>
+                        </div>
+                        <div class="right p-tb-10 col-md-12">
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <button type="button" class="btn btn-blue btn-block">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="quote" class="quote">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 text-center">
+                        <h2>Sign Up for Our Newsletter</h2>
+                    </div>
+                    <div class="col-md-5 text-left subscribe-form">
+                        <form class="form-inline" role="form">
+                            <div class="form-group">
+                                <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+                            </div>
+                            <button type="submit" class="btn btn-orange">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="message" class="message">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center services-heading">
+                        <h1>Innovation to the Nth Degree</h1>
+                        <p>Lorem ipsum dolor sit amet consectecter</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 style="color:rgba(155, 89, 182,1.0)"><i class="fa fa-plane"></i>Move Fast & break Things</h3>
+                        <p>Curabitur suscipit suscipit tellus. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Fusce fermentum odio nec arcu. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.</p>
+                        <ul>
+                            <i class="fa fa-check purple pull-left"></i>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <i class="fa fa-check purple pull-left"></i>
+                            <li>Consectetur adipiscing elit</li>
+                            <i class="fa fa-check purple pull-left"></i>
+                            <li>Integer molestie lorem at massa</li>
+                            <i class="fa fa-check purple pull-left"></i>
+                            <li>Nulla volutpat aliquam velit</li>
+                        </ul>
+                        <button type="button" class="btn btn-outline-purple">Expand the Envelope</button>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 style="color:rgba(211, 84, 0,1.0)"><i class="fa fa-leaf"></i>Fail Hard - move on</h3>
+                        <p>Curabitur suscipit suscipit tellus. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Fusce fermentum odio nec arcu. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.</p>
+                        <ul>
+                            <i class="fa fa-check pumpkin pull-left"></i>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <i class="fa fa-check pumpkin pull-left"></i>
+                            <li>Consectetur adipiscing elit</li>
+                            <i class="fa fa-check pumpkin pull-left"></i>
+                            <li>Integer molestie lorem at massa</li>
+                            <i class="fa fa-check pumpkin pull-left"></i>
+                            <li>Nulla volutpat aliquam velit</li>
+                        </ul>
+                        <button type="button" class="btn btn-outline-pumpkin">Nurture the Growth</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="clients" class="clients text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-6 col-xs-6">
+                        <a href="#">
+                            <img class="img-responsive" src="assets/img/clients/logo-sass.png" />
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6">
+                        <a href="#">
+                            <img class="img-responsive" src="assets/img/clients/logo-bootstrap.png" />
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6">
+                        <a href="#">
+                            <img class="img-responsive" src="assets/img/clients/logo-bower.png" />
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6">
+                        <a href="#">
+                            <img class="img-responsive" src="assets/img/clients/logo-grunt.png" />
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6">
+                        <a href="#">
+                            <img class="img-responsive" src="assets/img/clients/logo-yeoman.png" />
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-6">
+                        <a href="#">
+                            <img class="img-responsive" src="assets/img/clients/logo-less.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="showcase" class="showcase">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center showcase-heading">
+                        <h1>Application Development</h1>
+                        <p>Lorem ipsum dolor sit amet consectecter</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-responsive" src="assets/img/iphones.png" />
+                    </div>
+                    <div class="col-md-6">
+                        <h3 style="color:#3498db;"><i class="fa fa-mobile"></i>Mobile Development</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p>Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.  Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                        <hr class="small" />
+                        <button type="button" class="btn btn-orange" style="margin-right:1px;">More Information</button>
+                        <button type="button" class="btn btn-green">Application View</button>
+                        <p><small>* Download available on iTunes</small></p>
+                    </div>
+                    <div class="col-md-3 highlights hidden-xs">
+                        <h3 style="color:#f1c40f;">Highlights</h3>
+                        <a href="#">
+                            <img src="assets/img/1.jpg" />
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/2.jpg" />
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/3.jpg" />
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/4.jpg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="quote-two" class="quote-two">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center col-md-12">
+                        <h2><i class="fa fa-quote-left">&nbsp;</i> Inspired by Genius - Driven by Passion</h2>
+                        <p>~ Steve Shead</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center contact-heading">
+                        <h1>Send Us a Message</h1>
+                        <p>Lorem ipsum dolor sit amet consectecter</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3 style="color:#FC6E51;">Mailing Address</h3>
+                        <p style="">Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <ul>
+                            <li>
+                                <i class="fa fa-home"></i>123 The High St, San Jose, CA 95014
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>(408) 555-1234
+                            </li>
+                            <li>
+                                <i class="fa fa-fax"></i>(408) 555-2345
+                            </li>
+                            <li>
+                                <i class="fa fa-send"></i>you@your-company.com
+                            </li>
+                            <li>
+                                <i class="fa fa-cog"></i>support@your-company.com
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-blue">Service & Support</button>
+                        <button type="button" class="btn btn-yellow">Terms & Conditions</button>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3 style="color:#1abc9c;">Contact Form</h3>
+                        <form action="" method="POST">
+                            <div class="panel-body">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user blue"></i></span>
+                                        <input type="text" name="InputName" placeholder="Name" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope blue"></i></span>
+                                        <input type="email" name="InputEmail" placeholder="Email" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-phone blue"></i></span>
+                                        <input type="number" name="InputCno" placeholder="Phone" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-comment blue"></i></span>
+                                        <textarea name="InputMessage" rows="6" class="form-control" type="text" required></textarea>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn btn-orange pull-right">Submit
+                                        <span class="glyphicon glyphicon-send"></span>
+                                    </button>
+                                    <button type="reset" value="Reset" name="reset" class="btn btn-green">Reset
+                                        <span class="glyphicon glyphicon-refresh"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="colorDivider" />
+        <footer class="nb-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 p-b-30">
+                        <div class="about">
+                            <img src="assets/img/logo.png" class="img-responsive center-block" alt="">
+                            <div class="col-md-8 col-md-offset-2">
+                                <p>Etiam feugiat lorem non metus. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Ut a nisl id ante tempus hendrerit. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Phasellus accumsan cursus velit.</p>
+                            </div>
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="social-media">
+                                    <ul class="list-inline">
+                                        <li>
+                                            <a href="#" title=""><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title=""><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title=""><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title=""><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 left col-xs-6">
+                        <div class="footer-info-single">
+                            <h3 class="title">Help Center</h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-angle-double-right"></i> How to Pay</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-angle-double-right"></i> Sitemap</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-angle-double-right"></i> Delivery Info</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 left-center col-xs-6">
+                        <div class="footer-info-single">
+                            <h3 class="title">Customer INFO</h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-angle-double-right"></i> About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-angle-double-right"></i> Sell Your Items</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-angle-double-right"></i> Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 right-center col-xs-6">
+                        <div class="footer-info-single">
+                            <h3 class="title">privacy</h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-angle-double-right"></i> Return / Refund Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-angle-double-right"></i> Store Locations</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 right col-xs-6">
+                        <div class="footer-info-single">
+                            <h3 class="title">Pages</h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-home">&nbsp;</i> Home</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-image">&nbsp;</i> Photography</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-folder">&nbsp;</i> Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#" title=""><i class="fa fa-envelope">&nbsp;</i> Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section id="copyright" class="copyright">
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>&copy Copyright 2020 <a href="#">Your Name</a> &nbsp|&nbsp Design by <a href="#">Your Company</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="assets/js/jquery.mobile.custom.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script type="text/javascript" src="assets/js/menuzord.js"></script>
+        <script type="text/javascript">
+   jQuery(document).ready(function(){
+      jQuery("#menuzord").menuzord();
+   });
+</script>
+    </body>
+</html>
